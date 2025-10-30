@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abigail Tomás - CV</title>
+    <!-- Faltaría por añadir el link a los archivos de css y js, pero como no están desarollados no los he añadido aún-->
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <!--faltaría añadir la foto en el documento para que al hacer el diseño final aparezca, todavía no la he puesto porque no la he escogido, pero aparece para que se sepa que aparecerá una foto-->
+            <img src="foto.jpg" alt="Foto de perfil de Abigail">
+            <h1>Abigail Tomas</h1>
+            <p>Desarrolladora de Aplicaciones Web | Diseñadora Gráfica</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#sobreMi" aria-label="Ir a la sección sobre mí">Sobre Mí</a></li>
+                <li><a href="#estudios" aria-label="Ir a la sección de estudios">Estudios</a></li>
+                <li><a href="#experiencia" aria-label="Ir a la sección de experiencia">Experiencia</a></li>
+                <li><a href="#proyectos" aria-label="Ir a la sección de proyectos">Proyectos destacados</a></li>
+                <li><a href="#FAQ" aria-label="Ir a la sección de proyectos">FAQ</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="sobreMi" aria-labelledby="informacionPersonal">
+            <h2 id="informacionPersonal">Sobre Mí</h2>
+            <div>
+                <div>
+                    <h3>Habilidades Técnicas</h3>
+                    <ul aria-label="Lista de habilidades técnicas">
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>AWS</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>Soy desarrolladora de aplicacones web y diseñadora gráfica.</p>
+                    <p>Mi objetivo es crear soluciones tecnológicas que no solo sean funcionales, sino también
+                        inclusivas y accesibles para todos los usuarios, sin dejar de lado un buen diseño que sea
+                        llamativo pero a la vez que util.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="estudios" aria-labelledby="estudiosRealizados">
+            <h2 id="estudiosRealizados">Estudios</h2>
+            <div>
+                <article>
+                    <h3>Desarrollo de Aplicaciones Web</h3>
+                    <div>EASD - 2024 · Actualmente</div>
+                    <p>Formación Profesional de Grado Superior.</p>
+                </article>
+                <article>
+                    <h3>Diseño Gráfico</h3>
+                    <div>EASD - 2015 · 2018</div>
+                    <p>Formación Profesional de Grado Superior.</p>
+                </article>
+                <article>
+                    <h3>Fotografía artística</h3>
+                    <div>EASD - 2013 · 2015</div>
+                    <p>Formación Profesional de Grado Superior.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="experiencia" aria-labelledby="experienciaLaboral">
+            <h2 id="experienciaLaboral">Experiencia laboral</h2>
+            <div>
+                <article>
+                    <h3>Diseñadora gráfrica</h3>
+                    <div>MN Copies S.L | 2015 - 2020</div>
+                    <p>Diseñadora en pequeña empresa, encargada de realizar el diseño de papelería publicitaria.
+                        Realiza cartas para restaurantes, identidades corporativas de empresa, papelería
+                        publicitaria como tarjetas de visita.</p>
+                </article>
+
+                <article>
+                    <h3>Community manager</h3>
+                    <div>Freelance | 2020 - 2024</div>
+                    <p>Me dediqué al crecimiento de las empresas en la red, siendo la responsable directa de las
+                        redes sociales y el posicionamiento SEO.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="proyectos" aria-labelledby="proyectosDestacados">
+            <h2 id="proyectosDestacados">Proyectos Destacados</h2>
+            <div>
+                <article>
+                    <h3>Aplicación de escritorio - Tienda de ropa</h3>
+                    <p>Creación de una aplicación de escritorio para una tienda de ropa de segunda mano. En ella se
+                        gestiona la parte visual del usuario como la parte de administración de usuarios.</p>
+                    <p><strong>Tecnologías:</strong> Java, JavaFX, MySQL</p>
+                </article>
+
+                <article>
+                    <h3>App de Gestión de Tareas</h3>
+                    <p>Aplicación móvil y web para gestión de tareas con enfoque en accesibilidad.</p>
+                    <p><strong>Tecnologías:</strong> Figma, HTML, CSS, JavaScript</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="FAQ" aria-labelledby="tituloFAQ">
+            <h2 id="tituloFAQ">Preguntas Frecuentes</h2>
+            <div>
+                <div>
+                    <button id="pregunta1" aria-controls="respuesta1" aria-expanded="false">
+                        ¿En qué proyectos has trabajado?
+                    </button>
+                    <div id="respuesta1" role="region" aria-labelledby="pregunta1" hidden>
+                        <p>Hasta el momento, todos los proyectos en los que he trabajado son educativos. Proyectos
+                            que hemos ido desarrollando a lo largo de los dos años del curso que me han servido para
+                            adquirir los conocimientos necesarios.
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <button id="pregunta2" aria-controls="respuesta2" aria-expanded="false">
+                        ¿Qué tecnologías dominas?
+                    </button>
+                    <div id="respuesta2" role="region" aria-labelledby="pregunta2" hidden>
+                        <p>Dentro del desarrollo web domino JavaScript, Java, HTML, CSS y AWS. Como diseñadora
+                            gráfica trabajo con herramientas como Adobe Creative Suite (Photoshop, Illustrator,
+                            InDesign) y Figma para prototipado.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <button id="pregunta3" aria-controls="respuesta3" aria-expanded="false">
+                        ¿Estás disponible para trabajar remoto?
+                    </button>
+                    <div id="respuesta3" role="region" aria-labelledby="pregunta3" hidden>
+                        <p>Sí, estoy disponible para trabajar en modalidad remota. Tengo experiencia trabajando de forma
+                            remota como freelance y me adapto fácilmente a diferentes husos horarios y herramientas de
+                            colaboración online.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <h3>Contacto</h3>
+        <div class="infoContacto">
+            <div>
+                <h4>Email</h4>
+                <p><a href="mailto:abitomcer@alu.edu.gva.com">abitomcer@alu.edu.gva.com</a></p>
+            </div>
+
+            <div>
+                <h4>Teléfono</h4>
+                <p><a href="tel:+34123456789">+34 123 456 789</a></p>
+            </div>
+
+            <div>
+                <h4>GitHub</h4>
+                <p><a href="https://github.com/abitomcer21">github.com/abitomcer21</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
